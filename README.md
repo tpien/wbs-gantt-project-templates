@@ -7,8 +7,9 @@ instead of starting from a blank page.
 The templates are licensed under **MIT**: use them, change them and share them, privately or commercially.
 
 > **Note:** the templates are free and open. The **TreeProjectPlan editor** that opens them is a separate,
-> proprietary product with its own [paid plans](https://treeprojectplan.com). The MIT license in this
-> repository covers the template files only, not the application.
+> proprietary product. It is **free for a single user** (plans are kept locally, without cloud storage),
+> and offers [paid plans](https://treeprojectplan.com/pricing.html) with cloud storage and for teams and
+> enterprises. The MIT license in this repository covers the template files only, not the application.
 
 ## Templates
 
