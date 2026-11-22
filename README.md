@@ -13,23 +13,23 @@ The templates are licensed under **MIT**: use them, change them and share them, 
 
 ## Templates
 
-| Template | Category | Tasks | Effort | File |
+| Template | Category&nbsp;&nbsp;&nbsp; | Tasks | Effort | File |
 |---|---|---:|---:|---|
 | CRM implementation | Software | 58 | 184 MD | [crm-implementation.json](templates/software/crm-implementation.json) |
 | Stripe payment gateway integration | Software | 52 | 93.5 MD | [stripe-payment-integration.json](templates/software/stripe-payment-integration.json) |
-| Small SaaS built with Claude Code | Software | 54 | 108 MD + $2,940 | [saas-with-claude-code.json](templates/software/saas-with-claude-code.json) |
+| Small SaaS built with Claude Code ($2,940 budget) | Software | 54 | 108 MD | [saas-with-claude-code.json](templates/software/saas-with-claude-code.json) |
 | Jira worktime tracking app | Software | 47 | 99 MD | [jira-worktime-plugin.json](templates/software/jira-worktime-plugin.json) |
-| Hotel multi-outlet POS with fiscal printers | Software | 73 | 262 MD + $32,300 hardware | [hotel-pos-system.json](templates/software/hotel-pos-system.json) |
-| ERP with bookkeeping for US micro businesses | Software | 55 | 158 MD + $12,500 | [micro-business-erp.json](templates/software/micro-business-erp.json) |
+| Hotel multi-outlet POS with fiscal printers ($32,300 hardware) | Software | 73 | 262 MD | [hotel-pos-system.json](templates/software/hotel-pos-system.json) |
+| ERP with bookkeeping for US micro businesses ($12,500 budget) | Software | 55 | 158 MD | [micro-business-erp.json](templates/software/micro-business-erp.json) |
 | Software project: SDLC estimate | Software | 29 | 86 MD | [sdlc-software-project.json](templates/software/sdlc-software-project.json) |
-| Winter E-shop (online store launch) | E-commerce | 39 | 106 MD | [e-shop-launch.json](templates/e-commerce/e-shop-launch.json) |
-| Women's fashion online store | E-commerce | 105 | 217 days + $138,380 | [womens-fashion-store.json](templates/e-commerce/womens-fashion-store.json) |
-| Healthy food and vegetables online store (PrestaShop) | E-commerce | 102 | 200.5 days + $184,310 | [healthy-food-store.json](templates/e-commerce/healthy-food-store.json) |
-| Handmade merino wool hats and gloves store | E-commerce | 81 | 207.5 days + $48,740 | [merino-handmade-store.json](templates/e-commerce/merino-handmade-store.json) |
-| Refurbished iPhone online store | E-commerce | 81 | 147 days + $143,740 | [refurbished-iphone-store.json](templates/e-commerce/refurbished-iphone-store.json) |
-| Online pharmacy (US) | E-commerce | 94 | 236.5 days + $434,400 | [online-pharmacy.json](templates/e-commerce/online-pharmacy.json) |
+| Winter E-shop (online store launch) | E&#8209;commerce | 39 | 106 MD | [e-shop-launch.json](templates/e-commerce/e-shop-launch.json) |
+| Women's fashion online store ($138,380 budget) | E&#8209;commerce | 105 | 217 MD | [womens-fashion-store.json](templates/e-commerce/womens-fashion-store.json) |
+| Healthy food and vegetables online store (PrestaShop, $184,310 budget) | E&#8209;commerce | 102 | 200.5 MD | [healthy-food-store.json](templates/e-commerce/healthy-food-store.json) |
+| Handmade merino wool hats and gloves store ($48,740 budget) | E&#8209;commerce | 81 | 207.5 MD | [merino-handmade-store.json](templates/e-commerce/merino-handmade-store.json) |
+| Refurbished iPhone online store ($143,740 budget) | E&#8209;commerce | 81 | 147 MD | [refurbished-iphone-store.json](templates/e-commerce/refurbished-iphone-store.json) |
+| Online pharmacy (US, $434,400 budget) | E&#8209;commerce | 94 | 236.5 MD | [online-pharmacy.json](templates/e-commerce/online-pharmacy.json) |
 
-*MD = man-days. Amounts are first-year `capex` + `opex` in USD. A machine-readable list of all templates is in [catalog.json](catalog.json).*
+*MD = man-days. Amounts in brackets are first-year `capex` + `opex` in USD. A machine-readable list of all templates is in [catalog.json](catalog.json).*
 
 > **Looking for business plans?** Opening plans with startup and first-year cost budgets - pizzeria,
 > kebab shop, craft gelato shop, auto repair shop - live in the companion repository
