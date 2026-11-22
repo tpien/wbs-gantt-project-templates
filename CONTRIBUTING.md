@@ -1,6 +1,6 @@
 # Contributing a template
 
-1. Build the plan in the [TreeProjectPlan editor](https://app.treeprojectplan.com) and export it as JSON,
+1. Build the plan in the [TreeProjectPlan editor](https://app.treeprojectplan.com "Open the TreeProjectPlan editor") and export it as JSON,
    or write the file by hand following the format in the [README](README.md#file-format).
 2. Save it as `templates/<category>/<kebab-case-name>.json`. Use an existing category when one fits
    (`software`, `e-commerce`, ...) or add a new folder.

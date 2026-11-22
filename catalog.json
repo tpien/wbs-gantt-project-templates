@@ -1,6 +1,8 @@
 {
   "format": "startproject-wbs-catalog",
   "version": 1,
+  "repo": "https://github.com/tpien/wbs-gantt-project-templates",
+  "collection": "Project templates",
   "templates": [
     {
       "id": "sdlc-software-project",

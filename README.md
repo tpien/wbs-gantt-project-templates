@@ -1,14 +1,14 @@
 # WBS & Gantt project templates
 
 Free, ready-to-use **Work Breakdown Structure (WBS) and Gantt plan templates** as plain JSON.
-Download one, open it in [TreeProjectPlan](https://treeprojectplan.com), and adapt it to your project
+Download one, open it in TreeProjectPlan - the [WBS & Gantt maker](https://treeprojectplan.com "WBS & Gantt maker - TreeProjectPlan") - and adapt it to your project
 instead of starting from a blank page.
 
 The templates are licensed under **MIT**: use them, change them and share them, privately or commercially.
 
 > **Note:** the templates are free and open. The **TreeProjectPlan editor** that opens them is a separate,
 > proprietary product. It is **free for a single user** (plans are kept locally, without cloud storage),
-> and offers [paid plans](https://treeprojectplan.com/pricing.html) with cloud storage and for teams and
+> and offers [paid plans](https://treeprojectplan.com/pricing.html "TreeProjectPlan pricing") with cloud storage and for teams and
 > enterprises.
 
 ## Templates
@@ -32,8 +32,9 @@ The templates are licensed under **MIT**: use them, change them and share them, 
 *MD = man-days. Amounts in brackets are first-year `capex` + `opex` in USD. A machine-readable list of all templates is in [catalog.json](catalog.json).*
 
 > **Looking for business plans?** Opening plans with startup and first-year cost budgets - pizzeria,
-> kebab shop, craft gelato shop, auto repair shop - live in the companion repository
-> [Business plan templates](https://github.com/tpien/business-plan-templates).
+> kebab shop, craft gelato shop, car businesses, a dental clinic, a dermatology clinic, an aesthetic
+> medicine studio, a medical office building - live in the companion repository
+> [Business plan templates](https://github.com/tpien/business-plan-templates "Free business plan templates with startup costs").
 
 ### Staged software projects
 The six newer software templates share one shape: the top of the tree is a list of **stages (milestones)**
@@ -95,7 +96,7 @@ tests, launch and delivery, marketing and reports. Includes WBS numbers and a sc
 ## How to use a template
 
 1. Download the `.json` file (open it on GitHub and click **Download raw file**).
-2. Open the [TreeProjectPlan editor](https://app.treeprojectplan.com).
+2. Open the [TreeProjectPlan editor](https://app.treeprojectplan.com "Open the WBS & Gantt editor").
 3. Import the file. The tree, estimates and Gantt chart appear at once.
 4. Rename, add and remove tasks, adjust estimates and dates - it is now your plan.
 
@@ -175,5 +176,5 @@ someone start faster.
 All templates and the validator in this repository are released under the [MIT License](LICENSE) -
 free to use, modify and share, privately or commercially.
 
-> **Note:** TreeProjectPlan (the application) is proprietary software and is not covered by this license.
+> **Note:** TreeProjectPlan (the application, a [WBS & Gantt maker](https://treeprojectplan.com "WBS & Gantt maker - TreeProjectPlan")) is proprietary software and is not covered by this license.
 > It is a separate product, entirely outside this repository - no part of its code is included here.
