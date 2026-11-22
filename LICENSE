@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 pirat
+Copyright (c) 2026 WBS templates contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---------------------------------------------------------------------------
+Scope: this license covers the template files in this repository only
+(templates/**/*.json, catalog.json, scripts/ and the documentation).
+It does NOT cover the TreeProjectPlan application, its source code, its name
+or its logo, which remain proprietary and are licensed separately at
+https://treeprojectplan.com.

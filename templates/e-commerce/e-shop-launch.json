@@ -1,0 +1,491 @@
+{
+  "format": "startproject-wbs",
+  "version": 2,
+  "name": "Winter E-shop",
+  "about": "An example work breakdown structure and project plan for launching an online women's fashion shop, in 8 top-level stages: Kick-off, Analysis, Legal and compliance, Implementation, Tests, Launch & delivery, Marketing and Reports. 39 tasks, each estimated in man-days on a t-shirt scale (XS 0.5, S 1, M 3, L 5), 106 man-days in all, each scheduled with a start and finish date. Every parent's work and dates are rolled up from the tasks below it.",
+  "estimateUnit": "man-days (MD)",
+  "dates": "Every task is scheduled in the order the tree lists it, one after another, working days only, weekends skipped - a serial reading of the plan, since it records no dependencies. Counted here from scheduledFrom; the editor counts the same way from the day the example is opened.",
+  "scheduledFrom": "2026-09-18",
+  "source": "https://treeprojectplan.com/#examples",
+  "openInEditor": "https://app.treeprojectplan.com/?example",
+  "total": {
+    "rows": 51,
+    "leaves": 39,
+    "days": 106,
+    "start": "2026-09-18",
+    "finish": "2027-02-15"
+  },
+  "items": [
+    {
+      "wbs": "1",
+      "name": "Kick-off",
+      "level": 0,
+      "rollup": {
+        "days": 4,
+        "start": "2026-09-18",
+        "finish": "2026-09-24"
+      }
+    },
+    {
+      "wbs": "1.1",
+      "name": "Kick-off workshop",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-09-18",
+      "finish": "2026-09-18"
+    },
+    {
+      "wbs": "1.2",
+      "name": "Assortment, margins and who it is for",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-09-21",
+      "finish": "2026-09-21"
+    },
+    {
+      "wbs": "1.3",
+      "name": "Budget, launch date and the first campaign",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-09-22",
+      "finish": "2026-09-22"
+    },
+    {
+      "wbs": "1.4",
+      "name": "Team, roles and ways of working",
+      "level": 1,
+      "size": "XS",
+      "days": 0.5,
+      "start": "2026-09-23",
+      "finish": "2026-09-23"
+    },
+    {
+      "wbs": "1.5",
+      "name": "Domain, accounts and the repository",
+      "level": 1,
+      "size": "XS",
+      "days": 0.5,
+      "start": "2026-09-24",
+      "finish": "2026-09-24"
+    },
+    {
+      "wbs": "2",
+      "name": "Analysis",
+      "level": 0,
+      "rollup": {
+        "days": 12,
+        "start": "2026-09-25",
+        "finish": "2026-10-12"
+      }
+    },
+    {
+      "wbs": "2.1",
+      "name": "Platform and hosting",
+      "level": 1,
+      "rollup": {
+        "days": 12,
+        "start": "2026-09-25",
+        "finish": "2026-10-12"
+      }
+    },
+    {
+      "wbs": "2.1.1",
+      "name": "Platform choice: hosted or self-run",
+      "level": 2,
+      "size": "S",
+      "days": 1,
+      "start": "2026-09-25",
+      "finish": "2026-09-25"
+    },
+    {
+      "wbs": "2.1.2",
+      "name": "Hosting, domain, TLS and a staging copy",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-09-28",
+      "finish": "2026-09-30"
+    },
+    {
+      "wbs": "2.1.3",
+      "name": "Theme, layout and the design system",
+      "level": 2,
+      "size": "L",
+      "days": 5,
+      "start": "2026-10-01",
+      "finish": "2026-10-07"
+    },
+    {
+      "wbs": "2.1.4",
+      "name": "Backups and a restore actually tested",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-10-08",
+      "finish": "2026-10-12"
+    },
+    {
+      "wbs": "3",
+      "name": "Legal and compliance",
+      "level": 0,
+      "rollup": {
+        "days": 3,
+        "start": "2026-10-13",
+        "finish": "2026-10-15"
+      }
+    },
+    {
+      "wbs": "3.1",
+      "name": "Terms of sale, delivery and returns",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-10-13",
+      "finish": "2026-10-13"
+    },
+    {
+      "wbs": "3.2",
+      "name": "Privacy policy, cookies and consent",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-10-14",
+      "finish": "2026-10-14"
+    },
+    {
+      "wbs": "3.3",
+      "name": "Tax and invoicing checked with the accountant",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2026-10-15",
+      "finish": "2026-10-15"
+    },
+    {
+      "wbs": "4",
+      "name": "Implementation",
+      "level": 0,
+      "rollup": {
+        "days": 56,
+        "start": "2026-10-16",
+        "finish": "2027-01-01"
+      }
+    },
+    {
+      "wbs": "4.1",
+      "name": "Catalog",
+      "level": 1,
+      "rollup": {
+        "days": 19,
+        "start": "2026-10-16",
+        "finish": "2026-11-11"
+      }
+    },
+    {
+      "wbs": "4.1.1",
+      "name": "Category tree and filters",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-10-16",
+      "finish": "2026-10-20"
+    },
+    {
+      "wbs": "4.1.2",
+      "name": "Product data: names, descriptions, attributes",
+      "level": 2,
+      "size": "L",
+      "days": 5,
+      "start": "2026-10-21",
+      "finish": "2026-10-27"
+    },
+    {
+      "wbs": "4.1.3",
+      "name": "Photography and product video",
+      "level": 2,
+      "size": "L",
+      "days": 5,
+      "start": "2026-10-28",
+      "finish": "2026-11-03"
+    },
+    {
+      "wbs": "4.1.4",
+      "name": "Prices, VAT rates and stock levels",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-11-04",
+      "finish": "2026-11-06"
+    },
+    {
+      "wbs": "4.1.5",
+      "name": "Import from the supplier's feed",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-11-09",
+      "finish": "2026-11-11"
+    },
+    {
+      "wbs": "4.2",
+      "name": "Storefront",
+      "level": 1,
+      "rollup": {
+        "days": 8,
+        "start": "2026-11-12",
+        "finish": "2026-11-23"
+      }
+    },
+    {
+      "wbs": "4.2.1",
+      "name": "Home page and landing pages",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-11-12",
+      "finish": "2026-11-16"
+    },
+    {
+      "wbs": "4.2.2",
+      "name": "Category and product pages",
+      "level": 2,
+      "size": "L",
+      "days": 5,
+      "start": "2026-11-17",
+      "finish": "2026-11-23"
+    },
+    {
+      "wbs": "4.3",
+      "name": "Cart and checkout",
+      "level": 1,
+      "rollup": {
+        "days": 26,
+        "start": "2026-11-24",
+        "finish": "2026-12-29"
+      }
+    },
+    {
+      "wbs": "4.3.1",
+      "name": "Delivery methods and what they cost",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-11-24",
+      "finish": "2026-11-26"
+    },
+    {
+      "wbs": "4.3.2",
+      "name": "Payments: cards, transfers and pay on delivery",
+      "level": 2,
+      "size": "L",
+      "days": 5,
+      "start": "2026-11-27",
+      "finish": "2026-12-03"
+    },
+    {
+      "wbs": "4.3.3",
+      "name": "Search, sorting and recommendations",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-04",
+      "finish": "2026-12-08"
+    },
+    {
+      "wbs": "4.3.4",
+      "name": "Customer account and order history",
+      "level": 2,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-09",
+      "finish": "2026-12-11"
+    },
+    {
+      "wbs": "4.3.5",
+      "name": "Fulfillment",
+      "level": 2,
+      "rollup": {
+        "days": 12,
+        "start": "2026-12-14",
+        "finish": "2026-12-29"
+      }
+    },
+    {
+      "wbs": "4.3.5.1",
+      "name": "Courier contracts and pick-up points",
+      "level": 3,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-14",
+      "finish": "2026-12-16"
+    },
+    {
+      "wbs": "4.3.5.2",
+      "name": "Warehouse, packing and labels",
+      "level": 3,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-17",
+      "finish": "2026-12-21"
+    },
+    {
+      "wbs": "4.3.5.3",
+      "name": "Invoices and the hand-off to accounting",
+      "level": 3,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-22",
+      "finish": "2026-12-24"
+    },
+    {
+      "wbs": "4.3.5.4",
+      "name": "Returns and complaints, end to end",
+      "level": 3,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-25",
+      "finish": "2026-12-29"
+    },
+    {
+      "wbs": "4.4",
+      "name": "CI/CD pipelines",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2026-12-30",
+      "finish": "2027-01-01"
+    },
+    {
+      "wbs": "5",
+      "name": "Tests",
+      "level": 0,
+      "rollup": {
+        "days": 10,
+        "start": "2027-01-04",
+        "finish": "2027-01-15"
+      }
+    },
+    {
+      "wbs": "5.1",
+      "name": "Integration tests",
+      "level": 1,
+      "size": "L",
+      "days": 5,
+      "start": "2027-01-04",
+      "finish": "2027-01-08"
+    },
+    {
+      "wbs": "5.2",
+      "name": "End-to-end tests on GUI",
+      "level": 1,
+      "size": "L",
+      "days": 5,
+      "start": "2027-01-11",
+      "finish": "2027-01-15"
+    },
+    {
+      "wbs": "6",
+      "name": "Launch & delivery",
+      "level": 0,
+      "rollup": {
+        "days": 11,
+        "start": "2027-01-18",
+        "finish": "2027-02-01"
+      }
+    },
+    {
+      "wbs": "6.1",
+      "name": "Test orders through every payment method",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2027-01-18",
+      "finish": "2027-01-20"
+    },
+    {
+      "wbs": "6.2",
+      "name": "Analytics, conversion tracking and alerts",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2027-01-21",
+      "finish": "2027-01-21"
+    },
+    {
+      "wbs": "6.3",
+      "name": "SEO: titles, descriptions, sitemap and the product feed",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2027-01-22",
+      "finish": "2027-01-26"
+    },
+    {
+      "wbs": "6.4",
+      "name": "Soft launch to a small audience",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2027-01-27",
+      "finish": "2027-01-29"
+    },
+    {
+      "wbs": "6.5",
+      "name": "Public launch",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2027-02-01",
+      "finish": "2027-02-01"
+    },
+    {
+      "wbs": "7",
+      "name": "Marketing",
+      "level": 0,
+      "rollup": {
+        "days": 7,
+        "start": "2027-02-02",
+        "finish": "2027-02-10"
+      }
+    },
+    {
+      "wbs": "7.1",
+      "name": "Order and complaint triage",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2027-02-02",
+      "finish": "2027-02-04"
+    },
+    {
+      "wbs": "7.2",
+      "name": "First campaign and what it returned",
+      "level": 1,
+      "size": "M",
+      "days": 3,
+      "start": "2027-02-05",
+      "finish": "2027-02-09"
+    },
+    {
+      "wbs": "7.3",
+      "name": "Metrics review and the next iteration",
+      "level": 1,
+      "size": "S",
+      "days": 1,
+      "start": "2027-02-10",
+      "finish": "2027-02-10"
+    },
+    {
+      "wbs": "8",
+      "name": "Reports",
+      "level": 0,
+      "size": "M",
+      "days": 3,
+      "start": "2027-02-11",
+      "finish": "2027-02-15"
+    }
+  ]
+}
